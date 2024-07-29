@@ -1,0 +1,263 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+section {
+    padding: 50px 0;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+.hero-container{
+    height: 12rem;
+    width: 38%;
+    margin-top: 12em;
+    text-align: center;
+}
+header {
+    background: #facc4b;
+    color: #fff;
+    padding-top: 20px;
+    top: 0;
+    position: sticky;
+    z-index: 10000;
+}
+.panel{
+    background: #333;
+    height: 45px;
+    width: 100%;
+}
+header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+header ul {
+    padding: 0;
+    list-style: none;
+}
+.fa-regular{
+    color: #333;
+    font-size: 29px;
+}
+header li {
+    float: left;
+    display: inline;
+    padding: 0 25px 0 25px;
+}
+header #branding {
+    float: right;
+}
+header #branding h1 {
+    margin: 0;
+}
+header nav {
+    float: right;
+    margin: 10px 8rem 0 0;
+}
+header .highlight, header .current a {
+    color: #77aaff;
+    font-weight: bold;
+}
+header a:hover {
+    color: #FFC72C;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.line{
+    height: 2px;
+    width: 100%;
+    color: #FFC72C;
+}
+.hero {
+    height: 86vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.20), rgba(0, 0, 0, 0.20)), url("image_1.jpg");
+    background-size: cover;
+}
+.hero h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.hero p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.hero .btn {
+    background: #FFC72C;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.hero .btn:hover {
+    background: #555;
+    color: #FFC72C;
+}
+.main{
+    height: 70vh;
+    width: 100%;
+    background-color: white;
+    padding: 20px;
+}
+#text{
+    font-size: 25px;
+    color: black;
+    margin-top: 5rem;
+    text-align: center;
+}
+.main-box{
+    background: transparent;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.main-box h2{
+    margin-top: 10px;
+}
+.box{
+    height: 30vh;
+    width: 25%;
+    background-color: white;
+    border-radius: 20px;
+    padding: 40px;
+    border-style: inset;
+}
+.box:hover{
+    cursor: pointer;
+    border-style: outset;
+}
+.fa-solid{
+    font-size: 35px;
+    color: rgba(7, 62, 156, 0.874);
+    font-weight: bold;
+}
+.service{
+    height: 120vh;
+    width: 100%;
+    background-color: white;
+}
+.service-container-1{
+    height: 30vh;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    background-color: #333;
+}
+.service-container-2{
+    height: 100vh;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.service-box{
+    height: 330px;
+    width: 400px;
+    background-color: white;
+    color: black;
+    border-style: inset;
+    border-radius: 20px;
+    padding: 40px;
+    margin-top: 15px;   
+}
+.service-box p span:hover{
+    color: #FFC72C;
+    font-weight: bold;
+}
+.service-box:hover{
+    cursor: pointer;
+    border-style: outset;
+}
+.service-box h2{
+    margin-top: 20px;
+}
+.about{
+    height: 30vh;
+    width: 100%;
+    background-color: #333;
+    padding: 60px;
+}
+.about h1{
+    margin: 0 0 40px 50px;
+    color: rgb(235, 233, 233);
+}
+#btn{
+    background-color: #FFC72C;
+    color: #333;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    margin: 0 0 40px 50px;
+}
+#btn:hover{
+    background-color: #555;
+    color: #FFC72C;
+}
+.contact{
+    height: 40vh;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.contact-box{
+    height: 280px;
+    width: 450px;
+    background-color: white;
+    color: black;
+    border-style: inset;
+    border-radius: 20px;
+    padding: 40px;
+    margin-top: 15px;
+}
+.contact-box p:hover{
+    cursor: pointer;
+}
+#code{
+    font-size: 22px;
+}
+#contact-icon{
+    font-size: 18px;
+    color: #333;
+}
+#contact-icon:hover{
+    color: rgba(7, 62, 156, 0.874);
+    cursor: pointer;
+}
+#contact-icon p{
+    text-transform: lowercase;
+}
+.fa-brands{
+    font-size: 30px;
+    font-weight: bold;
+    color: #333;
+}
+.fa-brands:hover{
+    color: rgba(7, 62, 156, 0.874);
+    cursor: pointer;
+}
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+footer p {
+    margin: 0;
+}
